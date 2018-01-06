@@ -28,8 +28,7 @@ p {
 
 #portada {
     width: 100%;
-    height: auto;
-    border: solid 3px black; 
+    height: auto; 
 }
 
 .header  {
@@ -221,13 +220,13 @@ button {
     
     h1,h2,h3{
     font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
+    font-size: 23px;
     padding-bottom: 10px;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify;
 }
 
