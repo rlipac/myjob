@@ -163,9 +163,7 @@ button {
 
 @media screen and (max-width: 800px){
      
-    body {
-        border: solid 5px red;
-    }
+   
     
     .header  {
     background: url("../images/mio/conferencia3.jpg");
@@ -240,10 +238,7 @@ p {
 
 @media screen and (max-width: 650px) {
     
-     body {
-        border: solid 4px blue;
-    }
-    
+     
     #contenedor {
      
         width: 95%;
