@@ -20,21 +20,18 @@ p {
     text-align: justify;
 }
 
+
+.cabezote {
+    background-image: url(../images/mio/nueva.jpg);
+    height: 310px;
+}
+
+
+
 #contenedor {
-    width: 89%;
+    width: 85%;
     height: auto;
     margin: auto;
-}
-
-#portada {
-    width: 100%;
-    height: auto; 
-}
-
-.header  {
-    background: url("../images/mio/conferencia.jpg");
-    height: 450px;
-     width: 100%;
 }
 
 
@@ -122,11 +119,7 @@ a {
     align-items: center;
     flex-direction: column;
 }
-.diplomados ,p {
-    margin: 0;
-    padding: 0;
-    border: solid 2 red;
-}
+
 .libro {
     width: 30px;
     height: auto;
@@ -162,12 +155,15 @@ button {
 
 @media screen and (max-width: 800px){
      
-   
+    #contenedor {
+        width: 95%;
+        height: auto;
+    } 
     
-    .header  {
-    background: url("../images/mio/conferencia3.jpg");
-     height: auto;
-     width: 100%;
+    .cabezote {
+     background: url("../images/mio/nueva1.jpg");
+     height: 256px;
+     width: auto;
 }
     
     #micuerpo { 
@@ -240,17 +236,16 @@ p {
      
     #contenedor {
      
-        width: 95%;
+        width: 98%;
          height: auto;
         
     } 
     
-   .header  {
-    background: url("../images/mio/conferencia.jpg");
-     height: auto;
+    .cabezote {
+     background: url("../images/mio/nueva2.jpg");
+     height: 192px;
      width: 100%;
-}
-    
+}  
     #menu {
         display: none;
         
@@ -263,7 +258,7 @@ p {
     
     .menu2 {
       
-        width: 95%;
+        width: 100%;
         height: auto;
         position: relative;
         left: 0;
@@ -271,5 +266,16 @@ p {
         
     }
     
+    
+    @media screen and (max-width: 500px) {
+        
+        
+         .cabezote {
+     background: url("../images/mio/nueva3.jpg");
+     height: 105px;
+     width: 100%;
+    } 
+        
+    }
  
    
