@@ -32,6 +32,7 @@ p {
     width: 85%;
     height: auto;
     margin: auto;
+   
 }
 
 
@@ -154,11 +155,12 @@ button {
 
 
 @media screen and (max-width: 800px){
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
      
-    #contenedor {
-        width: 95%;
-        height: auto;
-    } 
     
     .cabezote {
      background: url("../images/mio/nueva1.jpg");
@@ -232,14 +234,15 @@ p {
 
 
 @media screen and (max-width: 650px) {
+   
+      
+    *{
+        margin: 0;
+        padding: 0;
+    }
     
-     
-    #contenedor {
-     
-        width: 98%;
-         height: auto;
-        
-    } 
+    
+
     
     .cabezote {
      background: url("../images/mio/nueva2.jpg");
@@ -269,6 +272,20 @@ p {
     
     @media screen and (max-width: 500px) {
         
+          
+    *{
+        margin: 0;
+        padding: 0;
+    }
+        
+          #contenedor {
+     
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding: 5px;
+        
+    } 
         
          .cabezote {
      background: url("../images/mio/nueva3.jpg");
