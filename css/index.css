@@ -15,9 +15,9 @@ h1,h2,h3{
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 21px;
-    text-align: justify;
+    font-family: 'Lato', sans-serif;    
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 
 
@@ -40,7 +40,11 @@ p {
 #menu {
     position: relative;
     left: 45px;
-    margin-top: 7px;
+    margin-top: 17px;
+}
+
+.menuchiko {
+    display: none;
 }
 
 .menuboton {
@@ -81,6 +85,7 @@ a {
     width: 100%;
     height: auto;
     margin: auto;
+   
 }
 
 .micontenido {
@@ -180,7 +185,11 @@ button {
     #menu {
     position: relative;
     left: 35px;
-    margin-top: 5px;
+    margin-top: 15px;
+}
+    
+    .menuchiko {
+    display: none;
 }
 
     
@@ -212,7 +221,7 @@ button {
         width: 85%;
         height: auto;
         margin-bottom: 30px;
-        padding: 10px;
+       
    
 }
     
@@ -223,9 +232,9 @@ button {
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    text-align: justify;
+   font-family: 'Lato', sans-serif;    
+    font-size: 22px;
+    margin-bottom: 18px;
 }
 
 
@@ -241,7 +250,12 @@ p {
         padding: 0;
     }
     
-    
+    .micontenido {
+        width: 100;
+        height: auto;
+        margin-left: 20px;
+        padding: 10px;
+    }
 
     
     .cabezote {
@@ -253,6 +267,13 @@ p {
         display: none;
         
     }
+    
+    .menuchiko{
+      background: red;
+        height: 40px;
+        border: solid 3px  green;
+    }
+    
     #menuDos {
         width: 100%;
         height: auto;
@@ -269,8 +290,25 @@ p {
         
     }
     
+    .publicidad {
+       
+    }
     
-    @media screen and (max-width: 500px) {
+        h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;   
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+    
+    
+    @media screen and (max-width: 499px) {
         
           
     *{
@@ -292,6 +330,19 @@ p {
      height: 105px;
      width: 100%;
     } 
+        
+            h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;    
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
         
     }
  
